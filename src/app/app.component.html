@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h3>What is the creator name?</h3>
+            <input [(ngModel)]="sendedName" placeholder="Text a name">
+        </div>
+    </div>
+
+    <div *ngIf="sendedNameAreEqualCreatorName()">
+        <app-success-toast></app-success-toast>
+    </div>
+
+    <div *ngIf="this.sendedName && !sendedNameAreEqualCreatorName()">
+        <app-warning-toast></app-warning-toast>
+    </div>
+</div>
