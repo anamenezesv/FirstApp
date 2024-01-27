@@ -7,12 +7,14 @@ import { ServersComponent } from './servers/servers.component';
 import { SuccessToastComponent } from './toasts/success-toast/success-toast.component';
 import { WarningToastComponent } from './toasts/warning-toast/warning-toast.component';
 import { FormsModule } from '@angular/forms';
+import { FirstExerciseComponent } from './pratices/first-exercise/first-exercise.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
     ServersComponent,
+    FirstExerciseComponent,
     SuccessToastComponent,
     WarningToastComponent
   ],

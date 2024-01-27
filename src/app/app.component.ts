@@ -6,11 +6,4 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-
-  creatorName: string = "Ana";
-  sendedName: string = null;
-
-  sendedNameAreEqualCreatorName(): boolean {
-    return this.sendedName.toLowerCase() == this.creatorName.toLowerCase();
-  }
 }
