@@ -8,6 +8,7 @@ import { SuccessToastComponent } from './toasts/success-toast/success-toast.comp
 import { WarningToastComponent } from './toasts/warning-toast/warning-toast.component';
 import { FormsModule } from '@angular/forms';
 import { FirstExerciseComponent } from './pratices/first-exercise/first-exercise.component';
+import { SecondExerciseComponent } from './pratices/second-exercise/second-exercise.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FirstExerciseComponent } from './pratices/first-exercise/first-exercise
     ServersComponent,
     FirstExerciseComponent,
     SuccessToastComponent,
-    WarningToastComponent
+    WarningToastComponent,
+    SecondExerciseComponent
   ],
   imports: [
     BrowserModule,
