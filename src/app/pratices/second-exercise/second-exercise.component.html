@@ -1,0 +1,6 @@
+<h3>What is your username ?</h3>
+<input type="text" [(ngModel)]="username">
+<br>
+<br>
+<p>The selected username is {{ username }}</p>
+<button (click)="cleanUsername()" [disabled]="usernameIsEmpty()" [innerText]="'Clean Username'"></button>
