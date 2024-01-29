@@ -1,0 +1,6 @@
+<h3>The server Life goes on is online !</h3>
+<button class="btn btn-primary" (click)="alterDetailsExibition()" [innerText]="buttonDetailsText"></button>
+<p *ngIf="showDetails">The secret password is {{ serverPassword }}</p>
+<div *ngFor="let log of showDetailsLog; let index = index;">
+    <p [ngStyle]="{backgroundColor: getLogBackgroundColor(index)}" [ngClass]="{'log-text': index >= 4}">{{ log }}</p>
+</div>
